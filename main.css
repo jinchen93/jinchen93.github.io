@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: #b9f6ca;
+  font-family: 'Pt Sans', sans-serif;
+}
+
+.wrapper {
+  height: 90%;
+  margin: 0 5% 0 5%;
+}
+
+.green-bar {
+  height: 1em;
+  background-color: #88c399;
+}
+
+.content-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #ecfffd;
+  padding: 2%;
+}
+
+.header {
+  text-align: center;
+}
+
+.project {
+  grid-column-start: 1;
+}
