@@ -8,11 +8,6 @@ html, body {
   font-family: 'Pt Sans', sans-serif;
 }
 
-.wrapper {
-  height: 90%;
-  margin: 0 5% 0 5%;
-}
-
 .green-bar {
   height: 1em;
   background-color: #88c399;
@@ -24,12 +19,53 @@ html, body {
   grid-template-columns: 30% 70%;
   background-color: #ecfffd;
   padding: 2%;
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .header {
   text-align: center;
 }
 
-.project {
-  grid-column-start: 1;
+.project-header {
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  border-left: 2px solid #59926b;
+  border-bottom: 2px solid #59926b;
+}
+
+
+.project-name, .project-description {
+  margin: 1em 0 0 1em;
+}
+
+button {
+  background-color: #b1ddd9;
+  margin-top: 0.8em;
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  display: inline-block;
+  transition: all 0.2s;
+  outline: none;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9)
+}
+
+.project-description {
+  font-size: 1.2em;
+  vertical-align: text-top;
+}
+
+object {
+  width: 1000px;
+  height: 1000px;
 }
