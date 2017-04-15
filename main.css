@@ -49,6 +49,7 @@ button {
   display: inline-block;
   transition: all 0.2s;
   outline: none;
+  width: 100%;
 }
 
 button:hover {
@@ -65,7 +66,6 @@ button:active {
   vertical-align: text-top;
 }
 
-object {
-  width: 1000px;
-  height: 1000px;
+.project-btn {
+  display: inline-block;
 }
