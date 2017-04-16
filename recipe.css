@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: #fff9c4;
+  font-family: 'Pt Sans', sans-serif;
+}
+
+.divider-bar {
+  height: 1em;
+  background-color: #E26A6A;
+}
+
+.content-container {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2%;
+  max-width: 1140px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.header {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.project-header {
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  border-left: 2px solid #59926b;
+  border-bottom: 2px solid #59926b;
+}
+
+
+.project-name, .project-description {
+  margin: 1em 0 0 1em;
+}
+
+button {
+  background-color: #ffddc1;
+  margin-top: 0.8em;
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  display: inline-block;
+  transition: all 0.2s;
+  outline: none;
+  width: 15em;
+  padding: 1.5em 0;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9)
+}
+
+.project-description {
+  font-size: 1.2em;
+  vertical-align: text-top;
+}
+
+.project-btn {
+  display: inline-block;
+}
+
+.ingredient-list li:first-child {
+  display: block;
+  border: 1px dashed black;
+  width: 20em;
+  height: 2em;
+  padding-left: 1em;
+  padding-top: 0.3em;
+}
+
+.ingredient-list li {
+  display: block;
+  border-bottom: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  width: 20em;
+  height: 2em;
+  padding-left: 1em;
+  padding-top: 0.3em;
+}
+
+.cupcake-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+img {
+  grid-column-start: 2;
+  height: auto;
+  width: 100%;
+}
+
+.direction-list li {
+  list-style: decimal;
+  padding: 0.3em;
+}
+
+.food-btn {
+  font-size: 1em;
+  padding: 0;
+  width: 10em;
+}
