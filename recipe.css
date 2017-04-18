@@ -115,3 +115,12 @@ img {
   padding: 0;
   width: 10em;
 }
+
+.review {
+  background: rgba(0, 0, 0, 0.04);
+  height: 6em;
+}
+
+.review * {
+  margin: 0.5em 0.5em;
+}

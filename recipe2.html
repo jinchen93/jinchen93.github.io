@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recipe</title>
+    <meta name="description" content="Jin Chen's Recipe">
+    <meta name="author" content="Jin Chen">
+
+    <link rel="stylesheet" href="recipe.css">
+
+    <link rel="shortcut icon" type="image/png" href="favicon-196x196.png"/>
+
+  </head>
+
+  <body>
+    <div class="divider-bar"></div>
+    <div class="content-container">
+      <h2>Really Bomb Really Good Really Easy Cupcakes!</h2>
+      <div class="cupcake-container">
+        <ul>
+          <li><a href="#description"><button>Description</button></a></li>
+          <li><a href="#ingredients"><button>Ingredients</button></a></li>
+          <li><a href="#directions"><button>Directions</button></a></li>
+        </ul>
+        <img src="cupcake.jpg" />
+      </div>
+      <h2 id="description">Description:</h2>
+      <div>
+        <p>Chocolate sugar plum pudding sugar plum cake oat cake pie. Chupa chups sugar plum sugar plum jelly-o gummi bears icing tiramisu sweet danish. Gummies candy canes topping muffin apple pie tart wafer dessert sesame snaps.</p>
+
+        <p>Candy canes cake wafer carrot cake chocolate sweet roll jelly-o bear claw marzipan. Gummies cupcake candy chupa chups marzipan toffee gummies. Tootsie roll oat cake danish sweet roll pastry. Halvah dessert jelly.</p>
+
+        <p>Cake jelly cotton candy soufflé muffin macaroon jelly sweet roll. Jelly beans sesame snaps halvah. Gummi bears ice cream oat cake sweet roll macaroon.</p>
+      </div>
+      <h2 id="ingredients"> Ingredients: </h2>
+        <ul class="ingredient-list">
+          <li>2 cups flour</li>
+          <li>1/2 teaspoon salt</li>
+          <li>2 teaspoon baking powder</li>
+          <li>1/2 cup butter</li>
+          <li>3/4 cup sugar</li>
+          <li>2 eggs</li>
+          <li>1 cup milk</li>
+          <li>1 teaspoon vanilla essence</li>
+        </ul>
+      <h2 id="directions">Directions:</h2>
+        <ol class="direction-list">
+          <li>Preheat oven to 375f or 190c; line muffin cups with papers.</li>
+          <li>Cream butter and sugar till light and fluffy. beat in   eggs one at a time.</li>
+          <li>Add flour (mixed with baking powder and salt) alternating with milk beat well; stir in vanilla.</li>
+          <li>Divide evenly among pans and bake for 18 minutes. let cool in pans.</li>
+        </ol>
+
+      <section class="review">
+        <form action="/reviews" method="post">
+          <label for="name">Name</label>
+          <input id="name" type="text">
+          <br>
+          <label for="rating">Rating</label>
+          1<input checked id="rating" type="radio" selected value="1">
+          2<input id="rating" type="radio" value="2">
+          3<input id="rating" type="radio" value="3">
+          4<input id="rating" type="radio" value="4">
+          5<input id="rating" type="radio" value="5">
+          <br>
+          <label for="expertise">Cooking Expertise</label>
+          <select name="expertise" id="expertise">
+            <option selected disabled value="--Select Cooking Expertise--">--Select Cooking Expertise--</option>
+            <option value="Sometimes Cook">Sometimes Cook</option>
+            <option value="Cook Everyday">Cook Everyday</option>
+            <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+            <option value="Professional Chef">Professional Chef</option>
+          </select>
+        </form>
+      </section>
+
+      <footer>
+        Original recipe from
+        <a href="http://www.food.com/recipe/simple-vanilla-cupcakes-178370">
+          <button class="food-btn">food.com</button>
+        </a>
+      </footer>
+    </div>
+    <div class="divider-bar"></div>
+  </body>
+</html>
